@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aboutus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+    .para{
+        position: absolute;
+        top: 550px;
+        left: 50px;
+        font-size: 40px;
+        color: azure;
+        border: 3px solid white;
+    }
+    
+    </style>
+</head>
+<body style="background-color:black ; color: white;">
+    <div id="loader"></div>  
+<div id="header"></div>
+    <h1>ABOUT US</h1>
+    <h2>WE ARE PROVIDING BEST SERVICES FOR ELECTRONIC ITEMS</h2>
+
+    <img src="https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?cs=srgb&dl=pexels-sy-donny-1841841.jpg&fm=jpg" class="rounded float-start" alt="...">
+<img src="https://i.pinimg.com/736x/1a/9a/bc/1a9abc289afac2f9e84f8674d2be10f2.jpg" class="rounded float-end" alt="...">
+
+<p class="para">WELCOME TO OUR WEBSITE</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam ad, eius illo blanditiis adipisci ut odit eum officiis. Quis aperiam quod ab neque inventore sunt, qui labore? Iure soluta mollitia, quam molestias eligendi nam! Veniam qui, dolore deserunt maxime, dolor reiciendis et hic sapiente vero nesciunt placeat ut cumque incidunt, quo perferendis dolorum repellat doloribus praesentium. Libero quae sint rerum labore quibusdam assumenda accusamus suscipit nostrum, ipsam, commodi dolorum distinctio pariatur alias ea delectus nemo esse nam. Quidem placeat odio optio sint animi magni harum doloremque eos sit, dolores ratione commodi, sequi earum, iste ducimus architecto blanditiis ut quae dolorem debitis rerum nihil consectetur! Earum voluptatibus numquam, tenetur, delectus dignissimos blanditiis a magni maxime autem nihil ex repudiandae praesentium quia, sapiente eaque animi alias. Facere exercitationem ipsa maxime! Quo incidunt itaque veritatis fugiat alias quidem totam optio tempore, impedit laboriosam! Aspernatur provident corrupti velit tempore non voluptatibus cum reprehenderit delectus repudiandae, ut inventore. Natus a sit quia perspiciatis inventore libero, porro sunt provident incidunt nam cumque molestias facere quasi magni iusto, quo quis eum voluptates. Dolore saepe, animi ullam tenetur corrupti aliquid alias quo id fugit totam nam? Iste, autem earum. Nemo blanditiis, nobis natus molestias nulla suscipit voluptatem!</p>
+<div id="footer"></div>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $(window).on("load",function(){
+                $("#loader").fadeOut("slow");
+            });
+        $(function(){
+            $("#header").load("header.html")
+
+        });
+        $(function(){
+            $("#footer").load("footer.html")
+
+        });
+
+    });
+</script>
+</body>
+</html>
